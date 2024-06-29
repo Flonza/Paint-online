@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+
+
+.input-color{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    color: black;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+   appearance: none;
+   background-color: #787b78;
+   height: 0.75rem;
+   width: 0.75rem;
+   border-radius: 50%;
+}
+
+.range::-webkit-slider-thumb:hover {
+   background-color: #464646;
+}
+
+.sombra-input {
+    box-shadow: 0px 0px 7px rgb(94, 94, 94);
+}
+
+/* Oculta las flechas en los navegadores basados en Webkit (como Chrome y Safari) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Oculta las flechas en Firefox */
+input[type="number"] {
+  appearance: textfield;
+}
+
+
+.font-gloria, .Gloria {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.font-montserrat, .Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-nunito, .Nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.font-josefin, .Josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
+.font-pacifico, .Pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: #3b3b3b;
+}
+*::-webkit-scrollbar-thumb{
+  background-color: #c2c2fc;
+}
